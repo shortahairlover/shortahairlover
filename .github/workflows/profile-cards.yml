@@ -1,0 +1,20 @@
+name: Generate profile summary cards
+
+on:
+  schedule:
+    - cron: "30 18 * * *" # every day at 01:30 WIB (after the 3D graph job)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
