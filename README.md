@@ -2,7 +2,7 @@
   <img src="assets/banner.svg" alt="Animated terminal: naufal@cloud runs whoami and deploys the profile" width="100%" />
 </p>
 
-<h1 align="center">Hey there, I'm Naufal ☁️</h1>
+<h1 align="center">Hey there, I'm Naufal</h1>
 
 <p align="center">
   <a href="https://github.com/shortahairlover">
@@ -14,7 +14,7 @@
   <img src="https://komarev.com/ghpvc/?username=shortahairlover&label=profile%20views&color=39d353&style=flat-square" alt="Profile views" />
   <a href="https://github.com/shortahairlover?tab=followers"><img src="https://img.shields.io/github/followers/shortahairlover?label=followers&style=flat-square&color=FF9F43" alt="Followers" /></a>
   <img src="https://img.shields.io/badge/status-open_to_work-39D353?style=flat-square" alt="Open to work" />
-  <img src="https://img.shields.io/badge/based_in-Indonesia_🇮🇩-0D1117?style=flat-square" alt="Indonesia" />
+  <img src="https://img.shields.io/badge/based_in-Indonesia-0D1117?style=flat-square" alt="Indonesia" />
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 
 ---
 
-## 🖥️ `$ cat about_me.py`
+<img src="assets/headers/about.svg" alt="about_me" width="100%" />
 
 ```python
 class Naufal:
@@ -43,18 +43,18 @@ class Naufal:
     learning_now = ["CI/CD on AWS", "Google Cloud", "Diffusion & generative models"]
 
     def say_hi(self):
-        return "Let's build something that saves people time 🚀"
+        return "Let's build something that saves people time"
 ```
 
-## 🧰 Toolbox
+<img src="assets/headers/toolbox.svg" alt="toolbox" width="100%" />
 
 <table>
   <tr>
-    <td align="center" width="25%"><b>☁️ Cloud & DevOps</b></td>
+    <td align="center" width="25%"><b>Cloud & DevOps</b></td>
     <td><img src="https://skillicons.dev/icons?i=aws,gcp,linux,bash,docker,githubactions,nginx&theme=dark" /></td>
   </tr>
   <tr>
-    <td align="center"><b>🧠 AI & Data</b></td>
+    <td align="center"><b>AI & Data</b></td>
     <td>
       <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,tensorflow&theme=dark" /><br/>
       <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
@@ -64,25 +64,26 @@ class Naufal:
     </td>
   </tr>
   <tr>
-    <td align="center"><b>🌐 Web</b></td>
+    <td align="center"><b>Web</b></td>
     <td><img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,ts,js,laravel,php,tailwind,html,css&theme=dark" /></td>
   </tr>
   <tr>
-    <td align="center"><b>📱 Mobile & Backend</b></td>
+    <td align="center"><b>Mobile & Backend</b></td>
     <td><img src="https://skillicons.dev/icons?i=java,spring,flutter,dart,cpp,mysql&theme=dark" /></td>
   </tr>
   <tr>
-    <td align="center"><b>🔧 Tools</b></td>
+    <td align="center"><b>Tools</b></td>
     <td><img src="https://skillicons.dev/icons?i=git,github,vscode,idea,postman&theme=dark" /></td>
   </tr>
 </table>
 
-## 📦 Things I've Shipped
+<img src="assets/headers/projects.svg" alt="projects" width="100%" />
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🌫️ <a href="https://github.com/shortahairlover/ddpm-kelompok11">ddpm-kelompok11</a></h3>
+      <img src="assets/icons/ddpm.svg" width="52" height="52" alt="" />
+      <h3><a href="https://github.com/shortahairlover/ddpm-kelompok11">ddpm-kelompok11</a></h3>
       <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
       <img src="https://img.shields.io/badge/Generative_AI-39D353?style=flat-square" />
       <img src="https://img.shields.io/badge/FID-16.43-FF9F43?style=flat-square" />
@@ -90,7 +91,8 @@ class Naufal:
       <p><b>Stack:</b> Python, PyTorch, U-Net, DDIM, FID evaluation</p>
     </td>
     <td width="50%" valign="top">
-      <h3>💸 <a href="https://github.com/shortahairlover/sipdana-v3">sipdana-v3</a></h3>
+      <img src="assets/icons/sipdana.svg" width="52" height="52" alt="" />
+      <h3><a href="https://github.com/shortahairlover/sipdana-v3">sipdana-v3</a></h3>
       <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
       <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
       <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
@@ -100,14 +102,16 @@ class Naufal:
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🩺 <a href="https://github.com/shortahairlover/Wellnez-app">Wellnez-app</a></h3>
+      <img src="assets/icons/wellnez.svg" width="52" height="52" alt="" />
+      <h3><a href="https://github.com/shortahairlover/Wellnez-app">Wellnez-app</a></h3>
       <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
       <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
       <p>A wellness web app where users register, log in and manage their health schedule: add, edit and track activities from a personal dashboard. A React frontend talks to a <b>Spring Boot</b> REST backend built with Maven.</p>
       <p><b>Stack:</b> Java, Spring Boot, Maven, React, CSS</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🎵 <a href="https://github.com/shortahairlover/LyricsHub">LyricsHub</a></h3>
+      <img src="assets/icons/lyricshub.svg" width="52" height="52" alt="" />
+      <h3><a href="https://github.com/shortahairlover/LyricsHub">LyricsHub</a></h3>
       <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
       <img src="https://img.shields.io/badge/Genius_API-FFFF64?style=flat-square&logo=genius&logoColor=black" />
       <p>A lyrics search site built on the Next.js App Router. Search for a song, open its lyrics on a dynamic <code>/lyrics/[artist]/[title]</code> page and save it to your favorites. A server-side API route proxies the Genius API so the key stays off the client.</p>
@@ -116,7 +120,8 @@ class Naufal:
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <h3>📐 <a href="https://github.com/shortahairlover/TugasLayout1">TugasLayout1</a></h3>
+      <img src="assets/icons/layout.svg" width="52" height="52" alt="" />
+      <h3><a href="https://github.com/shortahairlover/TugasLayout1">TugasLayout1</a></h3>
       <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
       <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
       <p>Mobile UI practice in Flutter: building layouts with rows, columns, stacks and containers, with a single codebase that targets Android, iOS, web and desktop.</p>
@@ -131,7 +136,7 @@ class Naufal:
   </a>
 </p>
 
-## 🧾 `$ git log --career`
+<img src="assets/headers/career.svg" alt="career" width="100%" />
 
 ```text
 * a7f3e21  (HEAD -> main)  Jul 2026 - Sep 2026
@@ -153,7 +158,7 @@ class Naufal:
            Responsive web front-ends with HTML, CSS, JavaScript & React
 ```
 
-## 📊 Activity
+<img src="assets/headers/activity.svg" alt="activity" width="100%" />
 
 <div align="center">
   <img src="profile-summary-card-output/github_dark/0-profile-details.svg" width="100%" alt="Profile details" />
@@ -172,7 +177,7 @@ class Naufal:
   <img src="profile-3d-contrib/profile-night-green.svg" alt="3D contribution graph" width="100%" />
 </p>
 
-## 📡 `$ ping naufal`
+<img src="assets/headers/contact.svg" alt="contact" width="100%" />
 
 <p align="center">
   <a href="https://www.linkedin.com/in/naufal-rafif-hidayat-80309a2a2/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>

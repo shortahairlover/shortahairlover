@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 64" width="1000" height="64" role="img" aria-label="contact">
+<rect x="4" y="8" width="48" height="48" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+<g transform="translate(14 18) scale(1.17)" fill="none" stroke="#39D353" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="11" r="1.8"/><path d="M12 12.8V21M8.2 7.2a5.4 5.4 0 0 0 0 7.6M15.8 7.2a5.4 5.4 0 0 1 0 7.6M5.4 4.4a9.4 9.4 0 0 0 0 13.2M18.6 4.4a9.4 9.4 0 0 1 0 13.2"/></g>
+<text x="72" y="42" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="24" font-weight="700" fill="#E6EDF3">contact</text>
+<text x="203" y="41" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#8B949E">// ping naufal</text>
+<line x1="351" y1="35" x2="978" y2="35" stroke="#30363D" stroke-width="1.5" stroke-dasharray="2 6" stroke-linecap="round"/>
+<circle cx="988" cy="35" r="4" fill="#FF9F43"><animate attributeName="opacity" values="1;.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
+</svg>
