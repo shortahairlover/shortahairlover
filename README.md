@@ -82,14 +82,6 @@ class Naufal:
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🤖 <a href="https://github.com/shortahairlover/telkomsel_bot">telkomsel_bot</a></h3>
-      <img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
-      <img src="https://img.shields.io/badge/Telegram_Bot-26A5E4?style=flat-square&logo=telegram&logoColor=white" />
-      <img src="https://img.shields.io/badge/MS_Graph-0078D4?style=flat-square&logo=microsoftsharepoint&logoColor=white" />
-      <p>Built during my <b>Telkomsel internship</b>. A Telegram bot that lets a team add and edit tracker entries in a <b>SharePoint list</b> through guided, step-by-step chat menus, authenticated with MSAL and Microsoft Graph. It runs as a <code>systemd</code> service on <b>AWS EC2</b> and redeploys automatically from GitHub Actions on every push.</p>
-      <p><b>Stack:</b> Python, python-telegram-bot, MSAL, Microsoft Graph, AWS EC2, GitHub Actions</p>
-    </td>
-    <td width="50%" valign="top">
       <h3>🌫️ <a href="https://github.com/shortahairlover/ddpm-kelompok11">ddpm-kelompok11</a></h3>
       <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
       <img src="https://img.shields.io/badge/Generative_AI-39D353?style=flat-square" />
@@ -97,8 +89,6 @@ class Naufal:
       <p>A <b>Denoising Diffusion Probabilistic Model</b> written from scratch: a class-conditional U-Net with classifier-free guidance, trained on MNIST and CIFAR-10 on a 6 GB laptop GPU. Includes guidance sweeps, hyperparameter experiments and a DDIM sampler, reaching <b>FID 16.43</b> on CIFAR-10. I led the team as prompt engineer working alongside an AI coding agent.</p>
       <p><b>Stack:</b> Python, PyTorch, U-Net, DDIM, FID evaluation</p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>💸 <a href="https://github.com/shortahairlover/sipdana-v3">sipdana-v3</a></h3>
       <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
@@ -107,6 +97,8 @@ class Naufal:
       <p>A personal finance manager with an <b>AI receipt scanner</b>: upload a photo of a receipt and Google Gemini pulls out the items and total, ready to save as a transaction. Also has JWT auth, real-time balance updates using database transactions, saving goals, and budgeting tips such as the 50/30/20 rule.</p>
       <p><b>Stack:</b> TypeScript, React, Node.js, Express, MySQL, Gemini API</p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>🩺 <a href="https://github.com/shortahairlover/Wellnez-app">Wellnez-app</a></h3>
       <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
@@ -114,8 +106,6 @@ class Naufal:
       <p>A wellness web app where users register, log in and manage their health schedule: add, edit and track activities from a personal dashboard. A React frontend talks to a <b>Spring Boot</b> REST backend built with Maven.</p>
       <p><b>Stack:</b> Java, Spring Boot, Maven, React, CSS</p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>🎵 <a href="https://github.com/shortahairlover/LyricsHub">LyricsHub</a></h3>
       <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
@@ -123,7 +113,9 @@ class Naufal:
       <p>A lyrics search site built on the Next.js App Router. Search for a song, open its lyrics on a dynamic <code>/lyrics/[artist]/[title]</code> page and save it to your favorites. A server-side API route proxies the Genius API so the key stays off the client.</p>
       <p><b>Stack:</b> Next.js, React, Tailwind CSS, Genius API</p>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
       <h3>📐 <a href="https://github.com/shortahairlover/TugasLayout1">TugasLayout1</a></h3>
       <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
       <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
