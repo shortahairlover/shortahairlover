@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/shortahairlover">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=39D353&center=true&vCenter=true&width=600&lines=Informatics+student+%40+Telkom+University;Cloud+%26+AI+enthusiast;Automating+boring+work+with+bots+%26+pipelines;Training+diffusion+models+from+scratch" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=39D353&center=true&vCenter=true&width=600&lines=Informatics+student+%40+Telkom+University;Cloud+%26+AI+enthusiast;Automating+boring+work+with+bots+%26+pipelines;Training+diffusion+models+from+scratch;Building+recommender+systems" alt="Typing SVG" />
   </a>
 </p>
 
@@ -37,6 +37,7 @@ class Naufal:
     recently_did = [
         "Built a Telegram bot on AWS EC2 that writes straight into SharePoint (Telkomsel internship)",
         "Trained a class-conditional DDPM from scratch on CIFAR-10, reaching FID 16.43",
+        "Compared CF and Matrix Factorization recommenders on MovieLens and Goodbooks",
         "Data Scientist track at Coding Camp powered by DBS Foundation",
     ]
 
@@ -60,6 +61,7 @@ class Naufal:
       <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
       <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
       <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
+      <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=black" />
       <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
     </td>
   </tr>
@@ -91,6 +93,16 @@ class Naufal:
       <p><b>Stack:</b> Python, PyTorch, U-Net, DDIM, FID evaluation</p>
     </td>
     <td width="50%" valign="top">
+      <img src="assets/icons/recommender.svg" width="52" height="52" alt="" />
+      <h3>Recommender Systems: CF vs MF</h3>
+      <a href="https://github.com/shortahairlover/MovieRecommender-CFvsMF"><img src="https://img.shields.io/badge/MovieLens_100K-repo-161B22?style=flat-square&logo=github&logoColor=39D353&labelColor=161B22" /></a>
+      <a href="https://github.com/shortahairlover/BookRecommender-CFvsMF"><img src="https://img.shields.io/badge/Goodbooks--10k-repo-161B22?style=flat-square&logo=github&logoColor=FF9F43&labelColor=161B22" /></a>
+      <p>The same three recommenders, <b>User-Based CF</b> (Pearson), <b>Item-Based CF</b> (adjusted cosine) and <b>Matrix Factorization</b> (SGD with biases), built from scratch and evaluated with 5-fold cross-validation on two datasets. MF wins on movies (RMSE <b>0.919</b>), while Item-Based CF wins on a sparse books subset (RMSE <b>0.865</b>), which shows the best method depends on the data. Both notebooks run end to end in Colab.</p>
+      <p><b>Stack:</b> Python, NumPy, pandas, scikit-learn, Matplotlib, Jupyter, Google Colab</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <img src="assets/icons/sipdana.svg" width="52" height="52" alt="" />
       <h3><a href="https://github.com/shortahairlover/sipdana-v3">sipdana-v3</a></h3>
       <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
@@ -99,8 +111,6 @@ class Naufal:
       <p>A personal finance manager with an <b>AI receipt scanner</b>: upload a photo of a receipt and Google Gemini pulls out the items and total, ready to save as a transaction. Also has JWT auth, real-time balance updates using database transactions, saving goals, and budgeting tips such as the 50/30/20 rule.</p>
       <p><b>Stack:</b> TypeScript, React, Node.js, Express, MySQL, Gemini API</p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <img src="assets/icons/wellnez.svg" width="52" height="52" alt="" />
       <h3><a href="https://github.com/shortahairlover/Wellnez-app">Wellnez-app</a></h3>
@@ -109,6 +119,8 @@ class Naufal:
       <p>A wellness web app where users register, log in and manage their health schedule: add, edit and track activities from a personal dashboard. A React frontend talks to a <b>Spring Boot</b> REST backend built with Maven.</p>
       <p><b>Stack:</b> Java, Spring Boot, Maven, React, CSS</p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <img src="assets/icons/lyricshub.svg" width="52" height="52" alt="" />
       <h3><a href="https://github.com/shortahairlover/LyricsHub">LyricsHub</a></h3>
@@ -117,9 +129,7 @@ class Naufal:
       <p>A lyrics search site built on the Next.js App Router. Search for a song, open its lyrics on a dynamic <code>/lyrics/[artist]/[title]</code> page and save it to your favorites. A server-side API route proxies the Genius API so the key stays off the client.</p>
       <p><b>Stack:</b> Next.js, React, Tailwind CSS, Genius API</p>
     </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
       <img src="assets/icons/layout.svg" width="52" height="52" alt="" />
       <h3><a href="https://github.com/shortahairlover/TugasLayout1">TugasLayout1</a></h3>
       <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />

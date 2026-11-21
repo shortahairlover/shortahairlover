@@ -137,6 +137,37 @@ def icon_layout():
     return "".join(parts)
 
 
+def icon_recommender():
+    # bipartite user -> item graph; edges light up, then a star rating fills in
+    users = [(18, 20), (18, 38)]
+    items = [(52, 14), (52, 29), (52, 44)]
+    edges = [(0, 0), (0, 2), (1, 1), (1, 2)]
+    parts = []
+    for i, (u, it) in enumerate(edges):
+        (x1, y1), (x2, y2) = users[u], items[it]
+        t0 = 0.1 + i * 0.12
+        parts.append(
+            f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{BORDER}" stroke-width="1.6"/>'
+            f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{GREEN}" stroke-width="1.8" opacity="0">'
+            f'<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;{t0:.2f};{t0 + 0.08:.2f};.85;1" dur="4s" repeatCount="indefinite"/></line>'
+        )
+    for x, y in users:
+        parts.append(f'<circle cx="{x}" cy="{y}" r="5" fill="{PANEL}" stroke="{GREEN}" stroke-width="2"/>')
+    for i, (x, y) in enumerate(items):
+        col = ORANGE if i == 2 else MUTED
+        parts.append(f'<rect x="{x - 4.5}" y="{y - 4.5}" width="9" height="9" rx="2" fill="{PANEL}" stroke="{col}" stroke-width="2"/>')
+    star = "M0 -4.2 L1.2 -1.3 L4.2 -1.3 L1.8 0.6 L2.7 3.6 L0 1.9 L-2.7 3.6 L-1.8 0.6 L-4.2 -1.3 L-1.2 -1.3 Z"
+    for i in range(5):
+        cx = 20 + i * 8
+        t0 = 0.55 + i * 0.05
+        parts.append(
+            f'<path d="{star}" transform="translate({cx} 58)" fill="{BORDER}"/>'
+            f'<path d="{star}" transform="translate({cx} 58)" fill="{ORANGE}" opacity="0">'
+            f'<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;{t0:.2f};{t0 + 0.04:.2f};.85;1" dur="4s" repeatCount="indefinite"/></path>'
+        )
+    return "".join(parts)
+
+
 header("about", "terminal", "about_me", "// cat about_me.py")
 header("toolbox", "layers", "toolbox", "// ls /usr/local/bin")
 header("projects", "cube", "projects", "// things I've shipped")
@@ -149,4 +180,5 @@ tile("sipdana", icon_receipt(), "Receipt scanner icon")
 tile("wellnez", icon_heart(), "Heart pulse icon")
 tile("lyricshub", icon_music(), "Music icon")
 tile("layout", icon_layout(), "Mobile layout icon")
+tile("recommender", icon_recommender(), "Recommender system icon")
 print("ok")
